@@ -1,0 +1,44 @@
+.dxsources-row {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #f0f0f0;
+	padding-bottom: 10px;
+}
+
+.dxsources-row:hover .delete {
+	color: red;
+}
+
+.dxsources-cell {
+	width: 25%;
+	margin-left: 5%;
+	display: inline-block;	
+}
+
+.dxsources-cell:first-of-type {
+	margin-left: 0;
+}
+
+.dxsources-cell.delete {
+	color: #eee;
+	font-weight: bold;
+	float: right;
+	width: 50px;
+	margin-top: 26px;
+	cursor: pointer;
+}
+
+.dxsources-label {
+	display: block;
+	margin-bottom: 5px;
+	font-size: 13px;
+}
+
+.dxsources-label .required {
+	color: red;
+	font-weight: bold;
+	font-size: 10px;
+}
+
+.dxsources-input {}
